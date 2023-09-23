@@ -60,7 +60,7 @@ body {
     font-weight: 600;
 }
 
-.celsius-value {
+.result-value {
     border-bottom: 2px solid #ccc;
     padding: 10px;
     transition: all .45s ease;

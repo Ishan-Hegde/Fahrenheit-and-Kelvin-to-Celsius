@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
     <!-- LOGO -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="favicon.ico">
 </head>
+
 <body>
     <div class="container">
         <div class="temperature-converter">
@@ -30,15 +32,15 @@
             </div>
             <h1 class="title">Temperature Converter</h1>
             <div class="result">
-                <span class="result-heading">Result (Celsius)</span>
-                <h2 class="celsius-value" id="celsius"></h2>
+                <span class="result-heading">Result</span>
+                <h2 class="result-value" id="result-value"></h2>
             </div>
             <!-- input field -->
             <div class="degree-type">
                 <!-- for degrees -->
                 <div class="degree-field">
-                        <label for="degree">Degrees</label>
-                        <input type="number" name="degree" id="degree" />
+                    <label for="degree">Degrees</label>
+                    <input type="number" name="degree" id="degree" />
                 </div>
                 <!-- for option selection -->
                 <div class="temp-field">
@@ -46,6 +48,7 @@
                     <select name="temperatures" id="temp-type" autocomplete="on">
                         <option id="fahrenheit" value="fahrenheit">Fahrenheit</option>
                         <option id="kelvin" value="kelvin">Kelvin</option>
+                        <option id="celsius" value="celsius">Celsius</option>
                     </select>
                 </div>
             </div>
@@ -55,4 +58,5 @@
     <!-- script tags -->
     <script src="app.js"></script>
 </body>
+
 </html>
